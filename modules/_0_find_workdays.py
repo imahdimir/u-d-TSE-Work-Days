@@ -38,9 +38,10 @@ def add_open_dates_of_tse_and_mark_closed_days(df , dfw) :
 
 def reorder_cols(df) :
     cols = {
-            c.d  : 'date' ,
-            c.jd : 'jdate' ,
-            c.wd : 'weekday' ,
+            c.d           : 'date' ,
+            c.jd          : 'jdate' ,
+            c.wd          : 'weekday' ,
+            c.is_tse_open : 'IS_TSE_OPEN' ,
             }
 
     df = df[list(cols.keys())]
