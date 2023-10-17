@@ -1,7 +1,7 @@
 # Python 3.11.4
 # Apple M1
 
-# working with parquet files
+# To work with ".parquet" files
 pyarrow==13.0.0
 fastparquet==2023.8.0
 
